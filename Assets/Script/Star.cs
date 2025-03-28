@@ -6,7 +6,8 @@ public class Star : MonoBehaviour
     {
         if (other.gameObject.tag=="Player")
         {
-            
+            TextShow.Score += 1;
+            Destroy(gameObject);
         }
 
     }
