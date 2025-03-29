@@ -9,6 +9,10 @@ public class Star : MonoBehaviour
             TextShow.Score += 1;
             Destroy(gameObject);
         }
-
     }
+    private void Update()
+    {
+        transform.Rotate(0,1,0);
+    }
+
 }
