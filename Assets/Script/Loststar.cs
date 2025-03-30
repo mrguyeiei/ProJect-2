@@ -1,20 +1,18 @@
 using UnityEngine;
 
-public class Star : MonoBehaviour
+public class Loststar : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        //?????????????????+1
-        if (other.gameObject.tag=="Player")
+        if (other.gameObject.tag == "Player")
         {
-            TextShow.Score += 1; 
+            //????????????????Player???
             Destroy(gameObject);
         }
     }
     private void Update()
     {
         //??????????
-        transform.Rotate(0,1,0);
+        transform.Rotate(0, 1, 0);
     }
-
 }

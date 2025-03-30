@@ -12,11 +12,23 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/ScenWin.unity
-    guid: 482fe3c21777c32428b518092dfe85c1
-  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 6fdc5ed57b44dab4f97dab0b12af202d
+  - enabled: 1
+    path: Assets/Scenes/Next.unity
+    guid: 482fe3c21777c32428b518092dfe85c1
+  - enabled: 1
+    path: Assets/Scenes/Answer questions.unity
+    guid: 108121e1fe4a9bc4f992e5c112b52f61
+  - enabled: 1
+    path: Assets/Scenes/Correct answe1.unity
+    guid: 5b3baa400ee50724f999e383e9bc38fe
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 0f0c4287214fac94e8d6cc9a6c93509f
+  - enabled: 1
+    path: Assets/Scenes/Wrong answer.unity
+    guid: 31bac34fa8659cc488ba9c716df36b26
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

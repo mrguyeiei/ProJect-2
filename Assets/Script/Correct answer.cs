@@ -1,0 +1,14 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Correctanswer : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        //??????????????Player???????????????????
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("Correct answe1");
+        }
+    }
+}

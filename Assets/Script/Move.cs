@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //MovePlayer
+        //?????????????Player
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVetical = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVetical);
@@ -26,6 +26,7 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
+        //???????????????????????????????? ???????????????????
         if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
             rb.AddForce(Vector3.up * jump, ForceMode.Impulse);
@@ -35,6 +36,7 @@ public class Move : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //????????
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
