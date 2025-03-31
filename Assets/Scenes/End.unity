@@ -490,30 +490,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thanks for playing.
-
-
-    Made by
-
-
-    1660700301 Thanachot Phiwsaard
-
-
-    1660700426
-    Pipat Loungphon
-
-
-    Thanks for Assets
-
-
-    POLY STYLE - Platformer Starter
-    Pack
-
-
-    Obstacle Course Pack
-
-
-    Surreal-Skyboxes'
+  m_text: "Thanks for playing.\n\nMade by\n\n1660700301 Thanachot Phiwsaard \nGame
+    Programmer / Game Developer\n\n1660700426 Pipat Loungphon \nLevel Designer /
+    Game Designer\n\nThanks for Assets\n\nPOLY STYLE - Platformer Starter Pack\n\nObstacle
+    Course Pack\n\nSurreal-Skyboxes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fd4cac6c6fa9586409d998ff6a56da5a, type: 2}
   m_sharedMaterial: {fileID: -2021215895689290486, guid: fd4cac6c6fa9586409d998ff6a56da5a, type: 2}
