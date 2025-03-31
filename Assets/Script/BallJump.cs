@@ -15,17 +15,17 @@ public class BallJump : MonoBehaviour
         force = mass * acc;
         
     }
-    public void SetAcc100()
+    public void Set200()
     {
         acc = 200f;
         CalculateForce();  
     }
-    public void SetAcc200()
+    public void Set300()
     {
         acc = 300f;
         CalculateForce();
     }
-    public void SetAcc300()
+    public void Set400()
     {
         acc = 400f;
         CalculateForce();

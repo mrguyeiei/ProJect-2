@@ -992,7 +992,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 984308338}
         m_TargetAssemblyTypeName: BallJump, Assembly-CSharp
-        m_MethodName: SetAcc200
+        m_MethodName: Set300
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1423,7 +1423,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 984308338}
         m_TargetAssemblyTypeName: BallJump, Assembly-CSharp
-        m_MethodName: SetAcc300
+        m_MethodName: Set400
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1856,7 +1856,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 984308338}
         m_TargetAssemblyTypeName: BallJump, Assembly-CSharp
-        m_MethodName: SetAcc100
+        m_MethodName: Set200
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
